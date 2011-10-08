@@ -1,0 +1,28 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono);
+
+body{
+  background: #FEFEFE url(img/bg.png) repeat-x center -10px;
+}
+
+div#preso{
+}
+
+.slide{
+  background: #FEFEFE url(img/logo.png) no-repeat right top;
+}
+
+.content {
+  color: black;
+  font-family: "Ubuntu", helvetica, arial;
+}
+
+h1, h2 {
+  color: #7A5CCE;
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+
+pre, code{
+  font-family: "Ubuntu Mono", monospace;
+}

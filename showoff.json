@@ -1,0 +1,4 @@
+{ "name": "Git for Scrum",
+  "sections": [ {"section":"start"},
+                {"section":"scru_what"},
+                {"section":"why_git"} ]}
