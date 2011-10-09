@@ -184,6 +184,7 @@ stable--\--\----------------------\----------------/---|----------+-------/--|--
 * <http://git-scm.com/documentation>
 
 * <http://gitimmersion.com>
+* <http://gitready.com/>
 
 * <http://gitref.org/>
 * <http://cheat.errtheblog.com/s/git>
