@@ -39,12 +39,10 @@ _if you are not in the talk_
 # Scrum Wall #
 ![Scrum Wall](/file/img/scrum_wall.png "Scrum Wall")
 
-!SLIDES center incremental
+!SLIDES center smaller incremental
 # BUGS! #
-![Bug](/file/img/bug_samfrasersmith.jpg "Bug")
 
-!SLIDES
-# Credits #
+![Bug](/file/img/bug_samfrasersmith.jpg "Bug")
 
 Bug: _Sam Fraser Smith_ [flickr]("http://www.flickr.com/photos/samfrasersmith")
 
