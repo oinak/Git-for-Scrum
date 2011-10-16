@@ -1,12 +1,19 @@
 
-!SLIDE bullets incremental
+!SLIDE bullets incremental transition=fade
 _and now finally_
+# Git workflow #
+## shamelessly forked from @porras:
+<http://www.slideshare.net/sergio.gil/a-git-workflow>
+but different
+
+!SLIDE bullets incremental transition=fade
 # Git for Scrum #
+_at least, 'our way'_
 
 * Features (demo)
 * Bugfixes (instant)
 
-!SLIDE bullets incremental
+!SLIDE bullets incremental transition=fade
 # Features #
 
 * One branch for story/backlog item
@@ -15,12 +22,12 @@ _and now finally_
 * Demo
 * Deploy
 
-!SLIDE bullets incremental
+!SLIDE bullets incremental transition=fade
 # Features #
 
 * One branch for story/backlog item
 
-!SLIDE commandline small incremental
+!SLIDE commandline small incremental transition=fade
 # Feature (start) #
 
     $ git checkout stable
@@ -38,7 +45,7 @@ _and now finally_
     $ git checkout -b fancy_feature
       Switched to a new branch 'fancy_feature'
 
-!SLIDE commandline small incremental
+!SLIDE commandline small incremental transition=fade
 # Feature (start) #
 
 Develope and pass your tests
@@ -58,8 +65,8 @@ Develope and pass your tests
       * branch            master     -> FETCH_HEAD
       Already up-to-date.
 
-!SLIDE commandline small incremental
-# Feature (merge/conflict) #
+!SLIDE commandline small incremental transition=fade
+# Feature (merge) #
 
     $ git merge fancy_feture
       100% (4/4) done
@@ -74,19 +81,17 @@ Develope and pass your tests
       >>>>>>> 77976da35a11db4580b80ae27e8d65caf5208086:file.txt
 
     $ git add file.txt
-
     $ git commit
       # no -m, automatic message
 
     $ git push origin master
-
     $ testing_deploy
 
-!SLIDE
+!SLIDE transition=fade
 
 ## What just happened? ##
 
-![Bug](/file/img/merge.png "Merge")
+![Bug](merge.png "Merge")
 
 !SLIDE code
 # Branching #
@@ -102,7 +107,7 @@ stable--\--\--------------------------------------+-------/--|------stable
                                 testing deploy  DEMO
 </pre>
 
-!SLIDE bullets small incremental
+!SLIDE bullets small incremental transition=fade
 # What makes a Bug? #
 
 * Prevent normal application use
@@ -110,7 +115,7 @@ stable--\--\--------------------------------------+-------/--|------stable
 * Destroy data
 * Impact severely on user experience
 
-!SLIDE bullets incremental
+!SLIDE bullets incremental transition=fade
 # Bugs #
 
 * One branch for BUG
@@ -119,7 +124,7 @@ stable--\--\--------------------------------------+-------/--|------stable
 * Check
 * Deploy
 
-!SLIDE commandline small incremental
+!SLIDE commandline small incremental transition=fade
 # Bug (start) #
 
     $ git checkout stable
@@ -141,7 +146,7 @@ stable--\--\--------------------------------------+-------/--|------stable
       lib/wadus/foo_bar.rb |   16 +++++++++++++++-
       1 files changed, 15 insertions(+), 1 deletions(-)
 
-!SLIDE commandline small incremental
+!SLIDE commandline small incremental transition=fade
 # Bug (finish) #
 
 with clean workspace
@@ -164,7 +169,7 @@ with clean workspace
 
     $ production_deploy
 
-!SLIDE code
+!SLIDE code transition=fade
 # Branching #
 <pre style="font-size:130%">
                                                production deploy  +  production deploy
@@ -178,7 +183,8 @@ stable--\--\----------------------\----------------/---|----------+-------/--|--
                                 testing deploy                  DEMO
 </pre>
 
-!SLIDE bullets small incremental
+
+!SLIDE bullets small incremental transition=fade
 # More #
 
 * <http://git-scm.com/documentation>

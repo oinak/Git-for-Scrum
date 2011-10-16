@@ -13,7 +13,7 @@ _if you are not in the talk_
 * Meetings
 * Documents
 
-!SLIDE bullets incremental transition=scrollUp
+!SLIDE bullets incremental transition=fade
 # Roles #
 
 * Product Owner
@@ -21,14 +21,14 @@ _if you are not in the talk_
 * Team
 * Users, test groups, coworkers...
 
-!SLIDE bullets incremental
+!SLIDE bullets incremental transition=fade
 # Meetings #
 
 * Sprint planning
 * Daily Scrum
 * Sprint review (Demo)
 
-!SLIDE bullets incremental
+!SLIDE bullets incremental transition=fade
 # Documents #
 
 * Product backlog
@@ -37,12 +37,12 @@ _if you are not in the talk_
 
 !SLIDES center
 # Scrum Wall #
-![Scrum Wall](/file/img/scrum_wall.png "Scrum Wall")
+![Scrum Wall](scrum_wall.png "Scrum Wall")
 
-!SLIDES center smaller incremental
+!SLIDES center smaller incremental transition=fade
 # BUGS! #
 
-![Bug](/file/img/bug_samfrasersmith.jpg "Bug")
+![Bug](bug_samfrasersmith.jpg "Bug")
 
 Bug: _Sam Fraser Smith_ [flickr]("http://www.flickr.com/photos/samfrasersmith")
 
