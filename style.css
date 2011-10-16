@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono);
 
 body{
-  background: #FEFEFE url(img/bg.png) repeat-x center -10px;
+  background: #FEFEFE url(bg.png) repeat-x center -10px;
 }
 
 div#preso{
@@ -10,10 +10,7 @@ div#preso{
 }
 
 .slide{
-  background-color: transparent;
-  background-image: url(img/logo.png);
-  background-position: left 40px;
-  background-repeat: no-repeat;
+  background: transparent url(logo.png) left 40px no-repeat;
 }
 
 .content {

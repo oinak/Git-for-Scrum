@@ -2,8 +2,7 @@
 # Git for Scrum #
 by
 
-<img src="/file/img/localizador.png" title="Oinak" alt="Oinak" width="30%">
-
+![Oinak](localizador.png "Oinak")
 
 !SLIDE center
 
