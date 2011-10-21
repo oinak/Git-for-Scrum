@@ -38,7 +38,7 @@ _at least, 'our way'_
       nothing to commit (working directory clean)
 
     $ git pull origin stable
-      From 10.0.0.243:psp
+      From git.my_server.com:my_project
       * branch            stable     -> FETCH_HEAD
       Already up-to-date.
 
@@ -61,7 +61,7 @@ Develope and pass your tests
       nothing to commit (working directory clean)
 
     $ git pull origin master
-      From 10.0.0.243:psp
+      From git.my_server.com:my_project
       * branch            master     -> FETCH_HEAD
       Already up-to-date.
 
@@ -131,7 +131,7 @@ stable--\--\--------------------------------------+-------/--|------stable
       Switched to branch 'stable'
 
     $ git pull origin stable
-      From 10.0.0.243:psp
+      From git.my_server.com:my_project
       * branch            stable     -> FETCH_HEAD
       Already up-to-date.
 
