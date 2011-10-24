@@ -6,6 +6,12 @@ by
 
 !SLIDE center
 
+![UEM](uem_logo.png "UEM")
+
+_October 21st, 2011, UEM - La Moraleja_
+
+!SLIDE center
+
 ![LCI](Lciberica.png "LCIbérica")
 
 Visit: [www.lciberica.es](http://www.lciberica.es/ "LCI Web")

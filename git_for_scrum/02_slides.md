@@ -184,15 +184,20 @@ stable--\--\----------------------\----------------/---|----------+-------/--|--
 </pre>
 
 
-!SLIDE bullets small incremental transition=fade
+!SLIDE bullets smaller incremental transition=fade
 # More #
 
-* <http://git-scm.com/documentation>
+<http://git-scm.com/documentation>
 
-* <http://gitimmersion.com>
-* <http://gitready.com/>
+<http://gitimmersion.com>
 
-* <http://gitref.org/>
-* <http://cheat.errtheblog.com/s/git>
-* __<http://www.ndpsoftware.com/git-cheatsheet.html>__
+<http://gitready.com/>
+
+<http://gitref.org/>
+
+<http://cheat.errtheblog.com/s/git>
+
+__<http://www.ndpsoftware.com/git-cheatsheet.html>__
+
+<http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/es/index.html>(es)
 
